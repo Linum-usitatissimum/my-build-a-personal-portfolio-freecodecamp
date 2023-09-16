@@ -15,5 +15,8 @@ Also, that I am gradually getting better at understanding flex-box. And flex-gro
 
 ## Screenshot of finished piece.
 
-And finally, here is a screenshot of the final piece.
+And finally, here are screenshots of the final piece.
 
+<img src="./img/Screenshot from 2023-09-17 04-43-06.png">
+<img src="./img/Screenshot from 2023-09-17 04-43-16.png">
+<img src="./img/Screenshot from 2023-09-17 04-43-23.png">
