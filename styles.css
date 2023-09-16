@@ -1,0 +1,435 @@
+* {
+    box-sizing:border-box;
+    color:var(--white-color-);
+    margin:0;
+    padding:0;
+  }
+  html {
+    margin:0;
+    padding:0;
+  }
+  
+  body
+  {
+    width:100vw;
+    height:100vh;
+  }
+  
+  :root {
+    --red-color-:rgba(200,0,0, 0.8);
+    --slate-gray-:rgb(50,50,50);
+    --white-color-:white;
+    --blue-color-:rgba(0, 0, 255, 0.5);
+  }
+
+  h1 {
+    font-size:3rem;
+  }
+  .welcome-paragraph {
+    font-size:1.5rem;
+  }
+  
+  /*margin and padding*/
+  
+  #navbar {
+    padding:20px 15px 19px 15px;
+  }
+  
+  .header-link-box {
+    padding:0 20px 0 0;
+  }
+  
+  #welcome-section {
+  padding:20vw;
+  }
+  
+  #projects {
+    padding-top:8%;
+  }
+  
+  #project-header {
+    margin-bottom:50px;
+    padding-bottom:5px;
+  }
+  
+  .tile-box {
+    padding-top:20px;
+    padding-bottom:14px;
+  }
+  
+  #box-button-box-button-goes-in {
+    padding:0;
+    margin:50px;
+  }
+  #box-button-goes-in,
+  #profile-link
+  
+  {
+    padding:0;
+    margin:0;
+  }
+  
+  button
+  {
+    padding:0 0 0 30px;
+  }
+  
+  #contact 
+  {
+    padding:5% 0 6% 0;
+  }
+  
+  .section-three-header
+  {
+    padding:3% 0 10px 0;
+  }
+  
+  .contact-buttons
+  {
+    padding-top:3%;
+  }
+  
+  .social
+  {
+    padding:20px;
+  }
+  
+  /*.freecodecamp-para {
+    margin-left:auto;
+  }*/
+  .footer-info {
+    margin-right:auto;
+  }
+  
+  .footer {
+    padding:30px 30px;
+  }
+  
+  .freecodecamp-para {
+    margin-left:auto;
+  }
+  
+  /*border*/
+  
+  #project-header {
+    border-bottom:3px solid var(--white-color-);
+  }
+  
+  .footer {
+    border-top:5px solid var(--red-color-);
+  }
+  
+  /*add red*/
+  
+  #navbar
+   {
+    background-color:var(--red-color-);
+  }
+  .welcome-paragraph
+  {
+    color:var(--red-color-);
+  }
+  
+  /*add slate-gray*/
+  
+  #welcome-section,
+  .tile-box,
+  #profile-link,
+  #contact,
+  .footer,
+  button
+   {
+    background-color:var(--slate-gray-);
+  }
+  
+  /*add blue*/
+  
+  #projects {
+    background-color:var(--blue-color-);
+  }
+  
+  body,
+  #navbar,
+  ul, 
+  li, 
+  a,
+  .header-link-box,
+  #box-button-goes-in,
+  #button-box,
+  #box-button-box-button-goes-in,
+  .contact-buttons,
+  .social,
+  .footer,
+  .box-project-tiles-go-in,
+  #projects,
+  #contact,
+  #footer-box,
+  button
+  
+  {
+  display:flex;
+  }
+  
+  /*flex-direction - column*/
+  
+  body,
+  main,
+  #welcome-section,
+  .project-tile,
+  .tile-box,
+  #projects,
+  #contact
+   {
+    flex-direction:column;
+  }
+  
+  /*flex-direction - row*/
+  
+  #navbar,
+  ul, li,
+  .header-link-box,
+  #button-box,
+  .social,
+  .box-project-tiles-go-in,
+  button,
+  #profile-link {
+    flex-direction:row;
+  }
+  
+  /*justify-content*/
+  #navbar,
+  #button-box
+  
+  {
+    justify-content:flex-end;
+  }
+  
+  p,
+  .contact-buttons,
+  #box-button-box-button-goes-in,
+  .social,
+  #projects,
+  .box-project-tiles-go-in
+  
+  {
+    justify-content:center;
+  }
+  
+  
+  #footer-box,
+  .footer
+  {
+    justify-content:space-between;
+  }
+  
+  /*align-items*/
+  
+  #welcome-section,
+  .tile-box,
+  .contact-buttons,
+  .social,
+  #projects,
+  #contact,
+  #footer-box,
+  button
+  
+  {
+    align-items:center;
+  }
+  
+  .box-project-tiles-go-in 
+  {
+  align-items:space-evenly;
+  }
+  
+  /*wrap*/
+  
+  .box-project-tiles-go-in,
+  .contact-buttons
+  {
+    flex-wrap:wrap;
+  }
+  
+  /*gap*/
+  
+  .box-project-tiles-go-in,
+  #footer-box,
+  ul 
+  
+   {
+    gap:30px;
+  }
+  
+  .social 
+  
+  {
+    gap:8px;
+  }
+  
+  /*flex-grow and flex*/
+  
+  .project-tile {
+    flex-grow:1;
+  }
+  
+  #footer-box {
+    flex:1;
+  }
+  
+  
+  /*align-text*/
+  #welcome-section,
+  h2,
+  p,
+  a
+  {
+    text-align:center;
+  }
+  
+  /*width*/
+  .project-tile,
+  img {
+    width:300px;
+    max-width:400px;
+    min-width:400px;
+  }
+  
+  #navbar {
+    width:100%;
+  }
+  
+  .box-project-tiles-go-in,
+  img,
+  #footer-box
+   {
+    width:100%;
+  }
+  
+  .max-width-footer {
+    width:600px;
+  }
+  
+  .footer
+  {
+    width:100%;
+  }
+  
+  #footer-box
+  {
+    width:500px;
+  }
+  
+  /*height*/
+  
+  img {
+    height:205px;
+  }
+
+  
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    height:50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  /*position*/
+  
+  #navbar {
+    position:fixed;
+    top:0;
+    right:0;
+    
+  }
+  
+  
+  /*icons*/
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background: var(--white-color-);
+    color: var(--slate-gray-);
+  }
+  .fa-twitter {
+    color: var(--white-color-);
+  }
+  .fa-github {
+    color:var(--white-color-);
+  }
+  .fa-at {
+    color:var(--white-color-);
+  }
+  .fa-phone-square {
+    color:var(--white-color-);
+  }
+  .fa-free-code-camp {
+    color:var(--white-color-);
+    font-size:14px;
+  }
+  
+  a {
+    text-decoration:none;
+    cursor:pointer;
+  }
+  
+  a:hover {
+    opacity:0.5;
+  }
+  
+  a:active {
+    color:var(--red-color-)
+  }
+  
+  @media screen and (max-width:500px) {
+    .max-width-footer,
+    .contact-buttons,
+    #footer-box {
+      width:300px;
+    }
+    #footer-box {
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+    }
+    .freecodecamp-para {
+      text-align:center;
+      margin-left:0;
+    }
+    img,
+    .project-tile {
+      flex:0;
+      width:250px;
+      height:200px;
+      max-height:100px;
+      max-width:250px;
+      min-width:250px;
+      font-size:14px;
+      gap:10px;
+    }
+    .project-tile {
+      margin:40px 0;
+    }
+  
+    #box-button-box-button-goes-in {
+      padding-top:60px;
+    }
+  
+    #project-header {
+      flex-wrap:wrap;
+    }
+  
+    #welcome-section {
+      padding-top:35%;
+    }
+  
+  
+  }
